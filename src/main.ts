@@ -6,13 +6,14 @@ import { createPinia } from 'pinia'
 import App from './App.vue'
 import router from './router'
 
-import SSYUI from "goodgood-ui";
-import "goodgood-ui/style.css";
+import SSYUI from "ssy-ui-vite";
+import "ssy-ui-vite/style.css";
 
 const app = createApp(App)
 
 app.use(createPinia())
 app.use(router)
 
-app.mount('#app')
 app.use(SSYUI);
+app.mount('#app')
+

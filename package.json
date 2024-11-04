@@ -17,9 +17,9 @@
   },
   "dependencies": {
     "pinia": "^2.2.4",
+    "ssy-ui-vite": "^1.8.0",
     "vue": "^3.5.12",
-    "vue-router": "^4.4.5",
-    "goodgood-ui": "^1.0.1"
+    "vue-router": "^4.4.5"
   },
   "devDependencies": {
     "@tsconfig/node20": "^20.1.4",
